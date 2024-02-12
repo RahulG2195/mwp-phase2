@@ -121,13 +121,21 @@ class LoginModel extends CI_Model
         return $this->db->get()->num_rows();
    }
 
-   public function pwdEmailValid($pwd){
+   public function pwdEmailValid($pwd)
+   {
     $this->db->select('user_password'); 
     $this->db->from('login-table');
     $this->db->where('user_password', $pwd);
     $this->db->Limit(1);
     $this->db->order_by('login_id', 'desc');
     return $this->db->get()->num_rows();
-}
+  }
+
+    public function getdashboarduserdata()
+    {
+      $query = $this->db->get('login-table');
+      return $query->result_array();
+
+    }
 
 }

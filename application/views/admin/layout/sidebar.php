@@ -3,7 +3,7 @@
      <!-- Brand Logo -->
      <a href="https://myweddingpalette.com/" target="blank" class="brand-link" style="background-color: #FF5969;height: 55px;">
          <!--<img src="<?php echo base_url(); ?>/assets/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">-->
-         <img src="<?php echo base_url(); ?>/assets/images/WMP-Launching-page-logo.png" alt="My Wedding Palette" class="brand-image elevation-3" style="opacity: .9;margin-left: 0;margin-right: 0;">
+         <img src="<?php echo base_url() ?>assets/front/image/logo/header-logo.png" alt="My Wedding Palette" class="brand-image" style="opacity: .9;margin-left: 0;margin-right: 0;">
          <!--<span class="brand-text font-weight-light">My Wedding Palette</span>-->
      </a>
 
@@ -11,8 +11,8 @@
      <div class="sidebar">
          <!-- Sidebar user (optional) -->
          <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-             <div class="image">
-                 <img src="<?php echo base_url(); ?>/assets/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+             <div class="image" style="display:none">
+                 <!-- <img src="<?php echo base_url(); ?>assets/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image"> -->
              </div>
              <div class="info">
                  <a href="#!" class="d-block"><?php echo $this->session->userdata('user_name') ?></a>
@@ -59,7 +59,7 @@
                              <i class="nav-icon fas fa-file"></i>
                              <p>Profile</p>
                          </a>
-                     </li>
+                      </li>
                      <!-- <li class="nav-item">
                          <a href="<?php echo base_url(); ?>admin/category" class="nav-link">
                              <i class="nav-icon fas fa-file"></i>

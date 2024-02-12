@@ -138,7 +138,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                           </li> -->
                     <!-- Notifications Dropdown Menu -->
                          <li class="nav-item dropdown">
-                            <a class="nav-link"  href="<?php echo base_url('Vendor-Logout')?>">
+                            <a class="nav-link"  href="<?php echo base_url()?>admin/adminlogin/logout">
                             Logout
                             </a>
                           </li>

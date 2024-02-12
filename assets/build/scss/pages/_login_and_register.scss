@@ -10,14 +10,14 @@
   text-align: center;
 
   a {
-    color: $gray-700;
+    color: #ed404c !important;
   }
 }
 
 .login-page,
 .register-page {
   align-items: center;
-  background-color: $gray-200;
+  background-color: #ed404c !important;
   display: flex;
   flex-direction: column;
   height: 100vh;
