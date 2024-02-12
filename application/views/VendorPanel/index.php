@@ -1,6 +1,6 @@
-<?php $this->load->view('admin/layout/header'); ?>
+<?php $this->load->view('VendorPanel/layout/header'); ?>
            
-<?php $this->load->view('admin/layout/sidebar'); ?>
+<?php $this->load->view('VendorPanel/layout/sidebar'); ?>
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
@@ -26,96 +26,14 @@
     <section class="content">
       <div class="container-fluid">
         <!-- Small boxes (Stat box) -->
-
-
-        <!-- Vendor data -->
         <div class="row">
-          <div class="col">
-            <!-- small box -->
-            <div class="small-box bg-primary">
-              <div class="inner">
-                <h3>150</h3>
-
-                <p>Total registered user</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-bag"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-          <div class="col">
-            <!-- small box -->
-            <div class="small-box bg-success">
-              <div class="inner">
-                <h3>153<sup style="font-size: 20px"></sup></h3>
-
-                <p>MWP paid vendors</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-stats-bars"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-          <div class="col">
-            <!-- small box -->
-            <div class="small-box bg-warning">
-              <div class="inner">
-                <h3>44</h3>
-
-                <p>Total vendors</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-person-add"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-          <div class="col">
-            <!-- small box -->
-            <div class="small-box bg-danger">
-              <div class="inner">
-                <h3>20%</h3>
-
-                <p>Paid vendors</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-pie-graph"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <div class="col">
-            <!-- small box -->
-            <div class="small-box bg-danger">
-              <div class="inner">
-                <h3>65</h3>
-
-                <p>Paid vendors</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-pie-graph"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-        </div>
-
-       <!-- Service data  -->
-
-        <div class="row">
-          <div class="col">
+          <div class="col-lg-3 col-6">
             <!-- small box -->
             <div class="small-box bg-info">
               <div class="inner">
                 <h3>150</h3>
 
-                <p>Complete Wedding planning Data</p>
+                <p>Total Leads</p>
               </div>
               <div class="icon">
                 <i class="ion ion-bag"></i>
@@ -124,13 +42,13 @@
             </div>
           </div>
           <!-- ./col -->
-          <div class="col">
+          <div class="col-lg-3 col-6">
             <!-- small box -->
             <div class="small-box bg-success">
               <div class="inner">
-                <h3>153<sup style="font-size: 20px"></sup></h3>
+                <h3>53</h3>
 
-                <p>Vendor recommendation data</p>
+                <p>Total Booking</p>
               </div>
               <div class="icon">
                 <i class="ion ion-stats-bars"></i>
@@ -139,13 +57,13 @@
             </div>
           </div>
           <!-- ./col -->
-          <div class="col">
+          <div class="col-lg-3 col-6">
             <!-- small box -->
             <div class="small-box bg-warning">
               <div class="inner">
                 <h3>44</h3>
 
-                <p>Design and decor data</p>
+                <p>Total Users</p>
               </div>
               <div class="icon">
                 <i class="ion ion-person-add"></i>
@@ -154,195 +72,22 @@
             </div>
           </div>
           <!-- ./col -->
-          
-          
-          <!-- ./col -->
-        </div>
-
-
-        <!-- Vendor category data -->
-
-        <div class="row">
-          <div class="col-lg-3">
-            <!-- small box -->
-            <div class="small-box bg-primary">
-              <div class="inner">
-                <h3>150</h3>
-
-                <p>Venue vendor data</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-bag"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-          <div class="col-lg-3">
-            <!-- small box -->
-            <div class="small-box bg-success">
-              <div class="inner">
-                <h3>153<sup style="font-size: 20px"></sup></h3>
-
-                <p>Bridal wear data</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-stats-bars"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-          <div class="col-lg-3">
-            <!-- small box -->
-            <div class="small-box bg-warning">
-              <div class="inner">
-                <h3>44</h3>
-
-                <p>Groom wear data</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-person-add"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-          
-          <!-- ./col -->
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-6">
             <!-- small box -->
             <div class="small-box bg-danger">
               <div class="inner">
-                <h3>44</h3>
+                <h3>Free</h3>
 
-                <p>Photographers data </p>
+                <p>Plan Type</p>
               </div>
               <div class="icon">
-                <i class="ion ion-person-add"></i>
+                <i class="ion ion-pie-graph"></i>
               </div>
               <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
           </div>
           <!-- ./col -->
-          <!-- ./col -->
-          <div class="col-lg-3">
-            <!-- small box -->
-            <div class="small-box bg-primary">
-              <div class="inner">
-                <h3>44</h3>
-
-                <p>Makeup artist data </p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-person-add"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-          <!-- ./col -->
-          <div class="col-lg-3">
-            <!-- small box -->
-            <div class="small-box bg-success">
-              <div class="inner">
-                <h3>44</h3>
-
-                <p>Mehendi artist data </p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-person-add"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->         
-
-          <!-- ./col -->
-          <div class="col-lg-3">
-            <!-- small box -->
-            <div class="small-box bg-warning">
-              <div class="inner">
-                <h3>44</h3>
-
-                <p>Bridal Jwellery Data </p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-person-add"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->         
-
-          <!-- ./col -->
-          <div class="col-lg-3">
-            <!-- small box -->
-            <div class="small-box bg-danger">
-              <div class="inner">
-                <h3>44</h3>
-
-                <p>Decoration data </p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-person-add"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->          
-          <!-- ./col -->
-          <div class="col-lg-3">
-            <!-- small box -->
-            <div class="small-box bg-primary">
-              <div class="inner">
-                <h3>44</h3>
-
-                <p>Gift data </p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-person-add"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->          
-          <!-- ./col -->
-          <div class="col-lg-3">
-            <!-- small box -->
-            <div class="small-box bg-success">
-              <div class="inner">
-                <h3>44</h3>
-
-                <p>Catering data </p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-person-add"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->       
-          <!-- ./col -->
-          <div class="col-lg-3">
-            <!-- small box -->
-            <div class="small-box bg-warning">
-              <div class="inner">
-                <h3>44</h3>
-
-                <p>Invitation data </p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-person-add"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->          
-          
         </div>
-
-
         <!-- /.row -->
         <!-- Main row -->
         <div class="row d-none">
@@ -353,7 +98,7 @@
               <div class="card-header">
                 <h3 class="card-title">
                   <i class="fas fa-chart-pie mr-1"></i>
-                  Tota
+                  Sales
                 </h3>
                 <div class="card-tools">
                   <ul class="nav nav-pills ml-auto">
@@ -861,7 +606,7 @@
     </section>
     <!-- /.content -->
   </div>
-<?php $this->load->view('admin/layout/footer'); ?>
+<?php $this->load->view('VendorPanel/layout/footer'); ?>
 </div>
 <!-- ./wrapper -->
-<?php $this->load->view('admin/layout/script'); ?>
+<?php $this->load->view('VendorPanel/layout/script'); ?>

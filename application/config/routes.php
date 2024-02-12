@@ -53,20 +53,23 @@ $route['default_controller'] = 'Home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-
+// service 
 $route['service'] = 'Service/index';
 $route['service2'] = 'Service/Service2';
 $route['service4'] = 'Service/Service4';
 $route['service6'] = 'Service/Service6';
 
+// blog 
 $route['blog-detail'] = 'Blog/Blog_detail';
 
 $route['gallery-detail'] = 'Gallery/Gallery_detail';
 
+// front vendor 
 $route['vendor-detail'] = 'Vendor/Vender_Detail';
-$route['Single_data/(:any)/(:any)'] = 'admin/Admin_Vendor/Vendor_all_Data/$1/$2';
 $route['vendor-detail/(:any)/(:any)'] = 'Vendor/Vender_Detail/$1/$2';
 $route['Single-Vendor/(:any)'] = 'Vendor/Get_vendor_By_Cat/$1';
+$route['(:any)-in-(:any)'] = 'Filter/index';
+$route['Citys/(:any)'] = 'Vendor/Get_City_vendor/$1';
 
 $route['bridal-makeup'] = 'Vendor/Bridal_Makeup';
 $route['bridal-jewellery'] = 'Vendor/Bridal_Jewellery';
@@ -79,18 +82,20 @@ $route['photography'] = 'Vendor/Photography';
 $route['venue'] = 'Vendor/Venue';
 $route['wedding-gift'] = 'Vendor/Wedding_Gifts';
 $route['wedding-invitation'] = 'Vendor/Wedding_Invitation';
+
+// Trusted vendor 
 $route['Trusted-Vendor'] = 'Vendor/TrustedVendor';
 $route['Trusted-Vendor/(:any)'] = 'Vendor/TrustedVendor/$1';
 
-$route['Citys/(:any)'] = 'Vendor/Get_City_vendor/$1';
-$route['(:any)-in-(:any)'] = 'Filter/index';
 // $route['(:any)-in-(:any)'] = 'Filter/Load_more_data';
+// thank you 
 $route['registration/thankyou'] = 'thankyou';
 
 
 // vendor panel 
-$route['Vendor-Login'] = 'admin/Login';
-$route['Vendor-Logout'] = 'admin/Login/logout';
-
+$route['Vendor-Login'] = 'VendorPanel/Login';
+$route['Vendor-Logout'] = 'VendorPanel/Login/logout';
+$route['Data/(:any)/(:any)'] = 'VendorPanel/Admin_Vendor/Vendor_all_Data/$1/$2';
+$route['Single_data/(:any)/(:any)'] = 'admin/Admin_Vendor/Vendor_all_Data/$1/$2';
 
 
